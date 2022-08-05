@@ -13,21 +13,39 @@
             <p>Thank you for singning up at Netflix. Tell us more about yourself</p>
         </header>
         <section id="survey-form">
-            <div class="box">
-                <form action="result.html" method="get">
-                    <label for="name">Name</label><br>
-                    <input type="text" id="name" name="name" placeholder="Enter Your Name"><br>
-                    <label for="age">Age</label><br>
-                    <input type="text" id="age" name="age" placeholder="Age" ><br>
-                    <label for="Email">Email</label><br>
-                    <input type="text" id="Email" name="Email" placeholder="Enter Your email" ><br>
-                </form> 
-            </div>
-            <div class="box">
-                
-            </div>
-            <div class="box"></div>
-            <div class="box"></div>
+            <form action="result.html" method="get">
+                <div class="box">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name"><br>
+                        <label for="age">Age</label><br>
+                        <input type="text" id="age" name="age" placeholder="Age" ><br>
+                        <label for="Email">Email</label><br>
+                        <input type="text" id="Email" name="Email" placeholder="Enter Your email" ><br>
+                    
+                </div>
+                <div class="box">
+                        <label for="series">Content type</label>
+                        <br>
+                        <select name="series" id="series" size="1">
+                            <option selected disabled hidden>Series</option>
+                            <option value="Documentary">Documentary</option>
+                            <option value="TV-Shows">TV Shows</option>
+                            <option value="Movies">Movies</option>
+                            <option value="Netflix-Originals">Netflix Originals</option>
+                        </select>
+                </div>
+                <div class="box">
+                    <p>Movie Type</p>
+                    <input type="checkbox" name="type1" id="Comedy" value="Comedy">
+                    <label for="Comedy">Comedy</label>
+                    <input type="checkbox" name="type2" id="Action" value="Action">
+                    <label for="Action">Action</label>
+                    <input type="checkbox" name="type3" id="Romance" value="Romance">
+                    <label for="Romance">Romance</label>
+
+                </div>
+                <div class="box"></div>
+            </form> 
         </section>
     </div>
 </body>
