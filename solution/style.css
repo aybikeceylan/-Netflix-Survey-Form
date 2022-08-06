@@ -51,13 +51,14 @@
 
     margin: 0 auto;
     width: 400px;
-    height: 738px;
+    height: 720px;
     background-color: rgba(0, 0, 0, 0.678);
 
 
 }
 .box{
     margin: 20px;
+    padding-top: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -96,5 +97,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -10px;
+    margin-top: -20px;
 }
