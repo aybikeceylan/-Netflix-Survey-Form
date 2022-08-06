@@ -8,6 +8,10 @@
 #container{
     position: relative;
 }
+.container2{
+    width: 90%;
+    height: 95%;
+}
 #title{
     margin: 10px 50px 10px 50px;
     width: 90%;
@@ -51,10 +55,13 @@
     display: flex;
     justify-content: center;
 
+
 }
-.form{
-    width: 500px;
-    height:738px;
+#survey-form form{
+    width: 200px;
+    height: 873px;
+    background-color: rgba(0, 0, 0, 0.192);
+
 }
 .box{
     margin: 20px;
