@@ -1,9 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    color: white;   
-   
+    box-sizing: border-box;  
+    color: white;
 }
 #container{
     position: relative;
@@ -17,14 +16,13 @@
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(66, 65, 65, 0.658)
+    background-color: rgba(66, 65, 65, 0.384)
 }
 .netflix{
-    font: Bowlby One SC;
+    font-family: 'Bowlby One SC', cursive;
     font-style: normal;
     font-weight:800;
-    font-size: 50px;
-    letter-spacing: 0.5rem;
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +33,7 @@
     
 }
 #description p{
-    font-family: 'Sorts Mill Goudy';
+    font-family: 'Sorts Mill Goudy', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 23px;
@@ -70,7 +68,11 @@
     width: 350px;
     height: 40px;
     margin: 10px 0 ;
+    color: black;
 
+}
+.box select option{
+    color: black;
 }
 
 #feedback {
