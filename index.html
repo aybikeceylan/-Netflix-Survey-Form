@@ -11,64 +11,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
 </head>
 <body id="container">
-    <img src="./background_image.jpg" alt="Netflix" width="1440px" height="880px">
     <div id="title">
-        <div class="container2">
-            <header id="description">
-                <h1 class="netflix"><span class="net">NET</span>FLİX</h1>
-                <p>Thank you for singning up at Netflix. Tell us more about yourself</p>
-            </header>
-            <section id="survey-form">
-                <form action="result.html" method="get">
-                    <div class="box">
-                            <label for="name">Name</label><br>
-                            <input type="text" id="name" name="name" placeholder="Enter Your Name" class="box2"><br>
-                            <label for="age">Age</label><br>
-                            <input type="text" id="age" name="age" placeholder="Age" class="box2"><br>
-                            <label for="Email">Email</label><br>
-                            <input type="text" id="Email" name="Email" placeholder="Enter Your email"class="box2" ><br>
-                        
-                    </div>
-                    <div class="box" >
-                            <label for="series">Content type</label>
-                            <br>
-                            <select name="series" id="series" size="1" class="box2">
-                                <option value="Series" selected disabled hidden>Series</option>
-                                <option value="Documentary">Documentary</option>
-                                <option value="TV-Shows">TV Shows</option>
-                                <option value="Movies">Movies</option>
-                                <option value="Netflix-Originals">Netflix Originals</option>
-                            </select>
-                    </div>
-                    <div class="box">
-                        <p>Movie Type</p>
-                        <input type="checkbox" name="type1" id="Comedy" value="Comedy">
-                        <label for="Comedy">Comedy</label><br>
-                        <input type="checkbox" name="type2" id="Action" value="Action">
-                        <label for="Action">Action</label><br>
-                        <input type="checkbox" name="type3" id="Romance" value="Romance">
-                        <label for="Romance">Romance</label><br>
-                    </div>
-                    <div class="box">
-                        <p>Gender</p>
-                        <input type="radio" name="gender" id="gender" value="Male">
-                        <label for="gender">Male</label><br>
-                        <input type="radio" name="gender" id="gender" value="Female">
-                        <label for="gender">Female</label><br>
-                        <input type="radio" name="gender" id="gender" value="Other">
-                        <label for="gender">Other</label><br>
-                    </div>
-                    <div class="box">
-                        <label for="feedback">Feedback</label>
+        <header id="description">
+            <h1 class="netflix"><span class="net">NET</span>FLİX</h1>
+            <p>Thank you for singning up at Netflix. Tell us more about yourself</p>
+        </header>
+        <section id="survey-form">
+            <form action="result.html" method="get">
+                <div class="box">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" class="box2"><br>
+                        <label for="age">Age</label><br>
+                        <input type="text" id="age" name="age" placeholder="Age" class="box2"><br>
+                        <label for="Email">Email</label><br>
+                        <input type="text" id="Email" name="Email" placeholder="Enter Your email"class="box2" ><br>
+                    
+                </div>
+                <div class="box" >
+                        <label for="series">Content type</label>
                         <br>
-                        <textarea  name="Feedback" id="feedback" placeholder="any comment"></textarea>
-                    </div>
-                    <div class="box4">
-                        <input type="submit" value="Send" class="button">
-                    </div>
-                </form> 
-            </section>
-        </div>
+                        <select name="series" id="series" size="1" class="box2">
+                            <option value="Series" selected disabled hidden>Series</option>
+                            <option value="Documentary">Documentary</option>
+                            <option value="TV-Shows">TV Shows</option>
+                            <option value="Movies">Movies</option>
+                            <option value="Netflix-Originals">Netflix Originals</option>
+                        </select>
+                </div>
+                <div class="box">
+                    <p>Movie Type</p>
+                    <input type="checkbox" name="type1" id="Comedy" value="Comedy">
+                    <label for="Comedy">Comedy</label><br>
+                    <input type="checkbox" name="type2" id="Action" value="Action">
+                    <label for="Action">Action</label><br>
+                    <input type="checkbox" name="type3" id="Romance" value="Romance">
+                    <label for="Romance">Romance</label><br>
+                </div>
+                <div class="box">
+                    <p>Gender</p>
+                    <input type="radio" name="gender" id="gender" value="Male">
+                    <label for="gender">Male</label><br>
+                    <input type="radio" name="gender" id="gender" value="Female">
+                    <label for="gender">Female</label><br>
+                    <input type="radio" name="gender" id="gender" value="Other">
+                    <label for="gender">Other</label><br>
+                </div>
+                <div class="box">
+                    <label for="feedback">Feedback</label>
+                    <br>
+                    <textarea  name="Feedback" id="feedback" placeholder="any comment"></textarea>
+                </div>
+                <div class="box4">
+                    <input type="submit" value="Send" class="button">
+                </div>
+            </form> 
+        </section>
     </div>
 </body>
 </html>
